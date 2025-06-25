@@ -17,7 +17,7 @@ const messages = [
 giftBox.addEventListener("click", () => {
   clickCount++;
 
-  // Animación de rebote
+ 
   giftBox.style.transform = "scale(1.2)";
   setTimeout(() => {
     giftBox.style.transform = "scale(1)";
